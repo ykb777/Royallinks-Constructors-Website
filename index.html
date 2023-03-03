@@ -6,58 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Links</title>
 
-    <!-- Logo -->
+    <!-- LOGO -->
 
-    <link rel="icon" href="Logo/ROAL-LINKS-LOGO.png" type="image/icon type" sizes="16x16">
+    <link rel="icon" href="Logo/ROAL-LINKS-LOGO-ONLY.png" type="image/icon type" sizes="9x24">
 
-    <!-- links -->
+    <!-- LINKS -->
+    
     <!-- Latest compiled and minified Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Locals CSS file -->
     <link rel="stylesheet" href="style.css">
 
 </head>
+
+<!-- data-bs-spy="scroll" data-bs-target="#navbarNav" -->
+
 <body>
 
-    <!-- Header Starts Here -->
+  <!-- HEADEER STARTS HERE -->
 
     <header class="main-header fixed-top">
-        <!-- Header for Navigation Start-->
-            <div class="container">
+
+        <!-- HEADER NAV START-->
+        
+        <div class="header-size"></div>
+
+            <div class="container-fluid">
               <div class="row">
-                  <div class="col-12">
-                    <!--Start NavBar Section-->
+                  <div class="col-xl-12">
+
+                    <!--NAV_BAR SECTION START-->
+
                     <nav class="navbar navbar-expand-lg navbar-dark">
                       <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon nav-button"></span>
                         </button>
-                        <div class="collapse navbar-collapse"  id="navbarNav">
-                          <di class="navbar-content">
+                        <div class="collapse navbar-collapse nav-container"  id="navbarNav">
+                          <div class="navbar-content">
                             <ul class="navbar-nav text-center main-nav-content">
+
+                              <!-- HOME -->
+
                               <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#home">HOME</a>
+                                <a class="nav-link" active aria-current="page" href="#home">HOME</a>
                               </li>
+
+                              <!-- ABOUT US -->
+
                               <li class="nav-item">
                                 <a class="nav-link" href="#about">ABOUT US</a>
                               </li>
-                              <li class="nav-item navbar-collapse dropdown">
-                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  SERVICES
-                                </a>
-                                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                              </li>
+
+                              <!-- SERVICES -->
+
                               <li class="nav-item">
-                                <a class="nav-link" href="#contact">PACKAGE</a>
+                                <a class="nav-link" href="#services">SERVICES</a>
                               </li>
+
+                              <!-- PACKAGE -->
+
+                              <li class="nav-item">
+                                <a class="nav-link" href="#package">PACKAGE</a>
+                              </li>
+
+                              <!-- CONTACT -->
+
                               <li class="nav-item">
                                 <a class="nav-link" href="#contact">CONTACT</a>
                               </li>
+
+                              <!-- MORE -->
+
                               <li class="nav-item navbar-collapse dropdown">
                                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   MORE
@@ -69,40 +94,741 @@
                                 </ul>
                               </li>
                             </ul>
-                          </di>
+                          </div>
                         </div>
-                      </div>
                     </nav>
-                    <!--End NavBar Section-->
+                  </div>
+
+                  <!--NAV_BAR SECTION ENDS-->
+
                   </div>
               </div>
-            </div>
-        <!-- Header for Navigation End-->
+
+        <!-- HEADER NAV END-->
+
     </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="header-background-image img-fluid fixed-top" alt="Responsive image">
+
+    <div class="gap" id="home">
+
+    </div>
+
+    <!-- HEADER LOGO START-->
+    <header class="logo-header text-center" alt="Responsive-image">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="logo">
+              <img src="Logo/ROAL-LINKS-LOGO-ONLY.png" alt="logo">
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </header>
 
-      <!-- Header for Logo End-->
+    <!-- HEADER LOGO ENDED-->
 
-      
-    
-      <!-- Header for Logo End-->
-    
+  <!-- HEADEER ENDS HERE -->
+  
+      <!-- MAIN BODY START -->
+  
+      <main>
+  
+        <!-- HOME STARTS -->
+  
+        <section class="home-background">
+          <div class="banner-content-container" id="banner-box">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <div class="home-banner-aligner">
+                    <div class="banner-content">
+                      <h2 id="home-title">We Build Your Dream Home</h2>
+                      <br>
+                      <h6 id="home-msg">Design & Build with Best Constructor</h6>
+                      <br>
+                      <button class="banner-btn"><p>Let's Build</p></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <!-- HOME ENDS -->
+  
+        <div class="suport-content">
+  
+        </div>
 
-    <!-- Header Ends Here -->
+        <!-- HOME ABOUT US START-->
+
+        <div class="gap" id="about">
+
+        </div>
+
+        <section class="home-about">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="home-about-content">
+                  <h1>About Us</h1>
+                  <br>
+                  <p>Royallinks was founded by two brothers, Mr.Rejilal and Mr.Raghulal, in 2006. Both have decades of expertise and experience in Home Construction and Interior design. Initially, it started with interior designs and building management and later into Royalinks house construction. Royallinks, the Best House construction company in Bangalore, has always been about being a housing and interior brand that people can trust, depend and afford. Customer satisfaction is our main theme, and Royallinks undertakes the construction and design of residential, commercial, and institutional buildings across Bangalore. Royallinks proud to have provided homes for more than 100+families and 1500+ interior design projects. <span id="more"><br><br>Our managing directors, Mr.Rejilal and Mr. Reghulal bring their knowledge, passion, and dedication to the workforce and create a friendly environment in the workplace. They have overseen a broad range of successful commercial and residential house construction projects across Bangalore. Royallinks house construction and interiors in Bangalore have high-tech industrial machinery and long-term Professional and Experienced architects, designers, and engineers Follow new trendy designs in construction and interior design. </span><span onclick="myFunction()" id="readBtn">Read more</span><span id="dots" style="color: #ff1100;">...</span></p>
+                  <br>
+                  <button type="button">Know More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- HOME ABOUT US ENDS-->
+  
+        <!-- HOME SERVICE SECTION STARTS -->
+
+        <div class="gap" id="services">
+
+        </div>
+  
+        <section class="home-services">
+          <div class="bg-home-services">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="headings headings-a">
+                  <h1>Services</h1>
+                  <p class="headings-a-p">End-To-End Construction Services</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <div class="rc">
+                    <div class="home-construction-service">
+                      <div class="services-content">
+                          <h4>Home Construction</h4>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                          <div class="home-construction-button">
+                            <a target="_blank" href="service/construction.html"><button><p>Know More</p></button></a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <div class="rc">
+                    <div class="home-interior-services">
+                      <div class="services-content">
+                        <h4>Interior Design</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                        <div class="home-interior-button">
+                          <a target="_blank" href="service/interior.html"><button><p>Know More</p></button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <!-- HOME SERVICE SECTION ENDS -->
+        
+        <!-- HOME PACKAGE SECTION STARTS -->
+
+        <div class="gap" id="package">
+
+        </div>
+  
+        <section class="home-package-section">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="headings">
+                <div>
+                  <h1 class="headings-cat-b">Our Construction Packages</h1>
+                  <p>View our Best House Construction Packages that satisfy your needs.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center">
+                <div class="home-silver-package">
+                  <div class="silver-icon">
+
+                  </div>
+                  <div>
+                    <h4>SILVER</h4>
+                    <p>₹ 1650 / Sqft</p>
+                  </div>
+                  <div class="box-anime">
+                    <div class="box-1">
+                    </div>
+                    <div class="box-2">
+                    </div>
+                    <div class="box-3">
+                    </div>
+                    <div class="box-4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="rc">
+                  <div class="home-gold-package">
+                    <div class="gold-icon">
+
+                    </div>
+                    <div>
+                      <h4>GOLD</h4>
+                      <p>₹ 1950 / Sqft</p>
+                    </div>
+                    <div class="box-anime">
+                      <div class="box-1">
+                      </div>
+                      <div class="box-2">
+                      </div>
+                      <div class="box-3">
+                      </div>
+                      <div class="box-4">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="rc">
+                  <div class="home-diamond-package">
+                    <div class="diamond-icon">
+
+                    </div>
+                    <div>
+                      <h4>DIAMOND</h4>
+                      <p>₹ 2250 / Sqft</p>
+                    </div>
+                    <div class="box-anime">
+                      <div class="box-1">
+                      </div>
+                      <div class="box-2">
+                      </div>
+                      <div class="box-3">
+                      </div>
+                      <div class="box-4">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="rc">
+                  <div class="home-platinum-package">
+                    <div class="platinum-icon">
+
+                    </div>
+                    <div>
+                      <h4>DIAMOND</h4>
+                      <p>₹ 2650 / Sqft</p>
+                    </div>
+                    <div class="box-anime">
+                      <div class="box-1">
+                      </div>
+                      <div class="box-2">
+                      </div>
+                      <div class="box-3">
+                      </div>
+                      <div class="box-4">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <!-- HOME PACKAGE SECTION ENDS -->
+
+        <!-- HOME PREVIOUS PROJECTS STARTS -->
+
+        <section class="previous-project">
+          <div class="headings">
+            <h1 class="text-center headings-cat-b">Prevous Projects</h1>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="owl-carousel owl-theme" id="owl-carousel-a">
+                <div class="item mb-4">
+                    <img src="carsol/crsol-1.jpg" alt="image" class="card-img-top card-img-a">
+                  <div class="card-body">
+                    <h4>RL2058</h4>
+                    <h6>Electronic City, Bengaluru</h6>
+                  </div>
+                </div>
+
+                <div class="item mb-4">
+                    <img src="carsol/crsol-2.jpg" alt="image" class="card-img-top">
+                  <div class="card-body">
+                    <h4>RL2056</h4>
+                    <h6>Bommasandra, Bengaluru</h6>
+                  </div>
+                </div>
+
+                <div class="item mb-4">
+                    <img src="carsol/crsol-3.jpg" alt="image" class="card-img-top">
+                  <div class="card-body">
+                    <h4>RL2057</h4>
+                    <h6>Jigani, Bengaluru</h6>
+                  </div>
+                </div>
+
+                <div class="item mb-4">
+                    <img src="carsol/crsol-4.jpg" alt="image" class="card-img-top">
+                  <div class="card-body">
+                    <h4>RL2061</h4>
+                    <h6>Sarjapur, Bengaluru</h6>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- HOME PREVIOUS PROJECTS ENDS -->
+
+        <!-- WHY CHOOSING ROYALLINKS? START-->
+
+        <section class="why-royallinks">
+          <div class="background">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="wcr-heading headings">
+                  <h1>Why Choose Royallinks?</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-a rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-b rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-c rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-d rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-e rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-f rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-g rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                  <div class="wcr-card-h rc">
+                    <div class="wcr-card">
+                      <img src="icons/SVG/Transparency.svg" alt="">
+                      <h5>Some Text</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- WHY CHOOSING ROYALLINKS? END-->
+
+        <!-- FREQUENTLY ASKED QUESTIONS START -->
+
+        <section class="qstin-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="headings">
+                  <h1 class="headings-cat-b">Frequently Asked Questions</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="rc">
+                  <div class="qstin-box" id="qs-1">
+                    <div class="question">
+                      <h6>1. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-1">
+                      <p id="as-1">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-2">
+                    <div class="question">
+                      <h6>2.Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-2">
+                      <p id="as-2">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-3">
+                    <div class="question">
+                      <h6>3. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-3">
+                      <p id="as-3">3. We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-4">
+                    <div class="question">
+                      <h6>4. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-4">
+                      <p id="as-4">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-5">
+                    <div class="question">
+                      <h6>5. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-5">
+                      <p id="as-5">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-6">
+                    <div class="question">
+                      <h6>6. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-6">
+                      <p id="as-6">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-7">
+                    <div class="question">
+                      <h6>7. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-7">
+                      <p id="as-7">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-8">
+                    <div class="question">
+                      <h6>8. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-8">
+                      <p id="as-8">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                  <div class="qstin-box" id="qs-9">
+                    <div class="question">
+                      <h6>9. Do you charge separately for Designs?</h6>
+                    </div>
+                    <div class="answer" id="an-box-9">
+                      <p id="as-9">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="rc">
+                    <div class="qstin-box" id="qs-10">
+                      <div class="question">
+                        <h6>10. Do you charge separately for Designs?</h6>
+                      </div>
+                      <div class="answer" id="an-box-10">
+                        <p id="as-10">We don't charge separately for the designs; all the charges will be included in the package.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FREQUENTLY ASKED QUESTIONS END -->
+
+          <!-- TESTMONIALS START -->
+
+          <section class="testimonials">
+            <div class="headings">
+              <h1 class="text-center headings-cat-b">Testimonials</h1>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="owl-carousel owl-theme" id="owl-carousel-b">
+                  <div class="owl-content">
+                    <div class="item mb-4">
+                        <div class="tcontent">
+                          <h2>Kamala Guchi</h2>
+                          <h5>Source: Google</h5>
+                          <p>It was my dream to construct my home in Bangalore for  long time & Royallinks Constructions Bangalore helped me to manifest it beautifully. The house construction packages were really favorable
+                            for me to choose my own budget friendly package. Friendly employees  and supportive environment  helps to construct my home in affordable  price.</p>
+                        </div>
+                    
+                    </div>
+                  </div>
+                  <div class="owl-content">
+                    <div class="item mb-4">
+                        <div class="tcontent">
+                          <h2>Logeshwaran P</h2>
+                          <h5>Source: Google</h5>
+                          <p>I've never thought constructing a home would be an easy process. But with Royallinks construction bangalore, did. They build my home with all the quality materials and in new style. I could know all the progress in my house construction just by sitting at my place. They literally made my house construction much easier that I felt no stress at all.</p>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="owl-content">
+                    <div class="item mb-4">
+                      <div class="tcontent">
+                        <h2>Mrs. Sarmistha Padhi</h2>
+                          <h5>Source: Google</h5>
+                          <p>Royallinks are highly professional, innovative, and unique. Through wholehearted and dedicated effort they are constructiong our house into a 'beautiful home.'The team has done a fantastic job, particularly when it comes to design, planning, and project management. We are very impressed with the construction packages.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TESTMONIALS ENDS -->
+
+          <!-- CONTACT START -->
+
+          <div class="gap" id="contact">
+
+          </div>
+
+        <section class="testimonials">
+          <div class="container">
+            <div class="headings">
+              <h1 class="headings-cat-b">Contact Us</h1>
+            </div>
+            <form class="form-container" name="mainsignupform" action="login_page.html" id="signup-form">
+              <div class="content-form">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="rc input-box">
+                      <input class="" id="name" name="name" type="text" required placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="rc input-box">
+                      <input id="number" name="number" type="text" required placeholder="Mobile Number">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="rc input-box">
+                      <input id="email" name="email" type="email" required placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="rc input-box">
+                      <input type="text" name="location" required placeholder="Location">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="rc input-box">
+                      <input type="text" name="city" required placeholder="City">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="rc input-box">
+                      <input type="text" name="state" required placeholder="State">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="rc input-box">
+                      <select name="" id="" name="service" aria-selected="true" selected placeholder="Select Service">
+                        <option value="">Select Service</option>
+                        <option value="">Interior Design</option>
+                        <option value="">House Construction</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="rc input-box">
+                      <textarea style="height: 120px; background-color:#dddddd" type="text" id="message" name="message" class="" placeholder="Your message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="rc input-box submit">
+                      <input name="submit" type="submit">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <!-- CONTACT ENDS -->
+
+          <section class="bottom">
+            <div class="container">
+              <div class="row row-set">
+                  <div class="col-lg-8">
+                    <div class="col-set">
+                      <h2>Refer and Earn</h2>
+                      <br>
+                      <p>Join Our Referal Programme Now...!
+                        Having a friend/Family looking to construct Dream Home?
+                        Refer & earn up to Rs.55,000/- per Referal.
+                      </p>
+                      <br>
+                      <button>Refer Now</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="btmimage"><img style="width: 300px;" src="images/refer-earn.png" alt=""></div>
+                  </div>
+              </div>
+              <div class="row row-set">
+                <div class="col-lg-8">
+                  <div class="col-set">
+                    <h2>Hire End-to-End House construction service</h2>
+                    <br>
+                    <ul class="btm-list">
+                      <li><img src="icons/icons8-home-automation-30.png" alt=""> Unique Homes</li>
+                      <li><img src="icons/icons8-cancel-30.png" alt=""> Zero Cancellation </li>
+                      <li><img src="icons/icons8-transparency-30.png" alt=""> Transparency</li>
+                    </ul>
+                    <br>
+                    <button>Let's Build</button>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="btmimage"><img style="width: 300px;" src="images/construction.png" alt=""></div>
+                </div>
+            </div>
+            <div class="row row-set">
+              <div class="col-lg-8">
+                <div class="col-set">
+                  <h2>Join Our Team</h2>
+                  <p>We are always up to find a new talents, Drop us a mail at hrrecruit@royallinks.com & call @ 9353837087
+                    we will see what we can do.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="btmimage"><img style="width: 300px;" src="images/career (1).png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+      </main>
+
+      <footer>
+        <div class="footer-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-xl-4">
+                <div class="logo-footer">
+                  <img src="Logo/ROAL-LINKS-LOGO.png" alt="">
+                  <p>Royallinks House construction company in Bangalore & Construction contractors build Functional Homes. Our mission is to provide clients with hassle-free, end-to-end personalized house construction services. Our passionate team works with complete transparency and takes full responsibility for the project from planning to completion.</p>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-6 col-xl-4">
+                <div class="footer-links-box">
+                  <h3>Usefull Links</h3>
+                  <div class="footer-links">
+                    <div class="link">
+                      <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Construction</a></li>
+                        <li><a href="">Interior Design</a></li>
+                        <li><a href="">Packages</a></li>
+                        <li><a href="">Projects</a></li>
+                      </ul>
+                    </div>
+                    <div class="link">
+                      <ul>
+                        <li><a href=""> Plan</a></li>
+                        <li><a href="">Cost Estimator</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Branches In Dubai</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-6 col-xl-4">
+                <div class="contact-details">
+                  <h3>Contact Us</h3>
+                  <div class="contacts-content">
+                    <ul>
+                      <li>No: No. 718, 12th Cross, Hosa Road, New Center, CK Nagar, Electronic City, Bangalore- 560100. Branches In Dubai</li>
+                      <li>No: 765, 16th Main ,22nd, Cross, First Floor 3rd Sector, near HSR Club, HSR Layout, Bengaluru, Karnataka 560102</li>
+                      <li>+919353696463 , +91 97314 55505</li>
+                      <li>info@royallinks.in , hrrecruit@royallinks.in</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- MAIN BODY START -->
 
     <!-- Links Section -->
     <!-- Latest compiled jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    
     <!-- Latest compiled Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Local Script -->
     <script src="script.js"></script>
