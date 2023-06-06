@@ -26,7 +26,7 @@
 
 <!-- data-bs-spy="scroll" data-bs-target="#navbarNav" -->
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav">
 
   <!-- HEADEER STARTS HERE -->
 
@@ -60,38 +60,31 @@
                               <!-- ABOUT US -->
 
                               <li class="nav-item">
-                                <a class="nav-link" href="#about">ABOUT US</a>
+                                <a class="nav-link" href="about.html">ABOUT US</a>
                               </li>
 
                               <!-- SERVICES -->
 
-                              <li class="nav-item">
-                                <a class="nav-link" href="#services">SERVICES</a>
+                              <li class="nav-item navbar-collapse dropdown">
+                                <a class="nav-link" href="#services" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  SERVICES
+                                </a>
+                                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="service/construction.html">HOME CONSTRUCTION</a></li>
+                                  <li><a class="dropdown-item" href="service/interior.html">INTERIOR DESIGN</a></li>
+                                </ul>
                               </li>
 
                               <!-- PACKAGE -->
 
                               <li class="nav-item">
-                                <a class="nav-link" href="#package">PACKAGE</a>
+                                <a class="nav-link disabled" href="#package">PACKAGE</a>
                               </li>
 
                               <!-- CONTACT -->
 
-                              <li class="nav-item">
-                                <a class="nav-link" href="#contact">CONTACT</a>
-                              </li>
-
-                              <!-- MORE -->
-
-                              <li class="nav-item navbar-collapse dropdown">
-                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  MORE
-                                </a>
-                                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                              <li class="nav-item ">
+                                <a class="nav-link disabled" href="#contact">CONTACT</a>
                               </li>
                             </ul>
                           </div>
@@ -163,7 +156,7 @@
 
         <!-- HOME ABOUT US START-->
 
-        <div class="gap" id="about">
+        <div class="gap" id="">
 
         </div>
 
@@ -176,7 +169,7 @@
                   <br>
                   <p>Royallinks was founded by two brothers, Mr.Rejilal and Mr.Raghulal, in 2006. Both have decades of expertise and experience in Home Construction and Interior design. Initially, it started with interior designs and building management and later into Royalinks house construction. Royallinks, the Best House construction company in Bangalore, has always been about being a housing and interior brand that people can trust, depend and afford. Customer satisfaction is our main theme, and Royallinks undertakes the construction and design of residential, commercial, and institutional buildings across Bangalore. Royallinks proud to have provided homes for more than 100+families and 1500+ interior design projects. <span id="more"><br><br>Our managing directors, Mr.Rejilal and Mr. Reghulal bring their knowledge, passion, and dedication to the workforce and create a friendly environment in the workplace. They have overseen a broad range of successful commercial and residential house construction projects across Bangalore. Royallinks house construction and interiors in Bangalore have high-tech industrial machinery and long-term Professional and Experienced architects, designers, and engineers Follow new trendy designs in construction and interior design. </span><span onclick="myFunction()" id="readBtn">Read more</span><span id="dots" style="color: #ff1100;">...</span></p>
                   <br>
-                  <button type="button">Know More</button>
+                  <a href="about.html"><button type="button">Know More</button></a>
                 </div>
               </div>
             </div>
@@ -187,7 +180,7 @@
   
         <!-- HOME SERVICE SECTION STARTS -->
 
-        <div class="gap" id="services">
+        <div class="gap" id="">
 
         </div>
   
@@ -234,7 +227,7 @@
         
         <!-- HOME PACKAGE SECTION STARTS -->
 
-        <div class="gap" id="package">
+        <div class="gap" id="">
 
         </div>
   
@@ -250,7 +243,7 @@
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center">
                 <div class="home-silver-package">
                   <div class="silver-icon">
-
+                    <div class="icons"><img src="icons/SVG/silver.svg" alt=""></div>
                   </div>
                   <div>
                     <h4>SILVER</h4>
@@ -272,7 +265,7 @@
                 <div class="rc">
                   <div class="home-gold-package">
                     <div class="gold-icon">
-
+                      <div class="icons"><img src="icons/SVG/Gold.svg" alt=""></div>
                     </div>
                     <div>
                       <h4>GOLD</h4>
@@ -295,7 +288,7 @@
                 <div class="rc">
                   <div class="home-diamond-package">
                     <div class="diamond-icon">
-
+                      <div class="icons"><img src="icons/SVG/Platinum.svg" alt=""></div>
                     </div>
                     <div>
                       <h4>DIAMOND</h4>
@@ -318,7 +311,7 @@
                 <div class="rc">
                   <div class="home-platinum-package">
                     <div class="platinum-icon">
-
+                      <div class="icons"><img src="icons/SVG/Diamonds.svg" alt=""></div>
                     </div>
                     <div>
                       <h4>DIAMOND</h4>
@@ -404,32 +397,32 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-a rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/End to End Construction.svg" alt=""></div>
+                      <h5>End to End construction</h5>
                     </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-b rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Money Safety.svg" alt=""></div>
+                      <h5>Money Safety</h5>
                     </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-c rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Zero Cancellation.svg" alt=""></div>
+                      <h5>Zero Cancellation</h5>
                     </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-d rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Transparency.svg" alt=""></div>
+                      <h5>Transparency</h5>
                     </div>
                   </div>
                 </div>
@@ -437,32 +430,32 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-e rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Ownership.svg" alt=""></div>
+                      <h5>Ownership</h5>
                     </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-f rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Innovative design and Planning team.svg" alt=""></div>
+                      <h5>Planning</h5>
                     </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-g rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Quality with Efficiency.svg" alt=""></div>
+                      <h5>Quality with efficiency</h5>
                     </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                   <div class="wcr-card-h rc">
                     <div class="wcr-card">
-                      <img src="icons/SVG/Transparency.svg" alt="">
-                      <h5>Some Text</h5>
+                      <div class="wcr-icons"><img src="icons/SVG/Inhouse End to end team.svg" alt=""></div>
+                      <h5>Inhouse End to End Team</h5>
                     </div>
                   </div>
                 </div>
@@ -536,56 +529,6 @@
                     </div>
                   </div>
                   </div>
-                  <div class="rc">
-                  <div class="qstin-box" id="qs-6">
-                    <div class="question">
-                      <h6>6. Do you charge separately for Designs?</h6>
-                    </div>
-                    <div class="answer" id="an-box-6">
-                      <p id="as-6">We don't charge separately for the designs; all the charges will be included in the package.</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="rc">
-                  <div class="qstin-box" id="qs-7">
-                    <div class="question">
-                      <h6>7. Do you charge separately for Designs?</h6>
-                    </div>
-                    <div class="answer" id="an-box-7">
-                      <p id="as-7">We don't charge separately for the designs; all the charges will be included in the package.</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="rc">
-                  <div class="qstin-box" id="qs-8">
-                    <div class="question">
-                      <h6>8. Do you charge separately for Designs?</h6>
-                    </div>
-                    <div class="answer" id="an-box-8">
-                      <p id="as-8">We don't charge separately for the designs; all the charges will be included in the package.</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="rc">
-                  <div class="qstin-box" id="qs-9">
-                    <div class="question">
-                      <h6>9. Do you charge separately for Designs?</h6>
-                    </div>
-                    <div class="answer" id="an-box-9">
-                      <p id="as-9">We don't charge separately for the designs; all the charges will be included in the package.</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="rc">
-                    <div class="qstin-box" id="qs-10">
-                      <div class="question">
-                        <h6>10. Do you charge separately for Designs?</h6>
-                      </div>
-                      <div class="answer" id="an-box-10">
-                        <p id="as-10">We don't charge separately for the designs; all the charges will be included in the package.</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -640,11 +583,11 @@
 
           <!-- CONTACT START -->
 
-          <div class="gap" id="contact">
+          <div class="gap" id="">
 
           </div>
 
-        <section class="testimonials">
+        <section class="contact-us">
           <div class="container">
             <div class="headings">
               <h1 class="headings-cat-b">Contact Us</h1>
@@ -711,9 +654,12 @@
 
           <section class="bottom">
             <div class="container">
-              <div class="row row-set">
-                  <div class="col-lg-8">
-                    <div class="col-set">
+              <div class="row row-set" dir="rtl">
+                <div class="col-lg-4">
+                  <div class="btmimage"><img style="width: 300px;" src="images/refer-earn.png" alt=""></div>
+                </div>
+                  <div class="col-lg-8" dir>
+                    <div class="col-set" dir="ltr">
                       <h2>Refer and Earn</h2>
                       <br>
                       <p>Join Our Referal Programme Now...!
@@ -724,13 +670,13 @@
                       <button>Refer Now</button>
                     </div>
                   </div>
-                  <div class="col-lg-4">
-                    <div class="btmimage"><img style="width: 300px;" src="images/refer-earn.png" alt=""></div>
-                  </div>
               </div>
-              <div class="row row-set">
+              <div class="row row-set" dir="rtl">
+                <div class="col-lg-4">
+                  <div class="btmimage"><img style="width: 300px;" src="images/construction.png" alt=""></div>
+                </div>
                 <div class="col-lg-8">
-                  <div class="col-set">
+                  <div class="col-set" dir="ltr">
                     <h2>Hire End-to-End House construction service</h2>
                     <br>
                     <ul class="btm-list">
@@ -742,21 +688,18 @@
                     <button>Let's Build</button>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="btmimage"><img style="width: 300px;" src="images/construction.png" alt=""></div>
-                </div>
             </div>
-            <div class="row row-set">
+            <div class="row row-set" dir="rtl">
+              <div class="col-lg-4">
+                <div class="btmimage"><img style="width: 300px;" src="images/career (1).png" alt=""></div>
+              </div>
               <div class="col-lg-8">
-                <div class="col-set">
+                <div class="col-set" dir="ltr">
                   <h2>Join Our Team</h2>
                   <p>We are always up to find a new talents, Drop us a mail at hrrecruit@royallinks.com & call @ 9353837087
                     we will see what we can do.
                   </p>
                 </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="btmimage"><img style="width: 300px;" src="images/career (1).png" alt=""></div>
               </div>
             </div>
           </div>

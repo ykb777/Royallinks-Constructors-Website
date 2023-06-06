@@ -1,0 +1,145 @@
+.construction-background {
+    background-image: url(../images/pexels-mathias-reding-7108779.jpg);
+    width: 100%;
+    height: 575px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-y: center;
+    background-position-x: center;
+    transition-duration: 2s;
+    display: flex;
+    align-items: end;
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 700px) {
+    .construction-background {
+        width: 100%;
+        height: 330px;
+        transition-duration: 2s;
+    }
+  }
+.wwo-section{
+    background-color: #dddddd;
+}
+.wwo-box {
+    width: 90%;
+    background-color: #dddddd;
+    border-radius: 5px;
+    box-shadow: .4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff;
+}
+.wwo-box p {
+    text-align: justify;
+}
+.wwo-box #residentialBtn, .wwo-box #commercialBtn {
+    color: #ff1100;
+}
+.wwo-section .btn{
+    width: 100%;
+    height: 40px;
+    border: 0px solid #dddddd;
+    border-radius: 5px;
+    background-color: #dddddd;
+    box-shadow: .4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff;
+}
+.wwo-section .btn:hover {
+    box-shadow: .4rem .4rem 1rem #ccc inset, -.4rem -.4rem 1rem #fff inset;
+    background:  linear-gradient(#E6913B, #EF4B3F);
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+}
+
+#residentialmore, #commercialmore {display: none;}
+
+.card {
+    width: 100%;
+    background-color: #dddddd;
+    border: none;
+}
+.previous-project .owl-theme {
+    padding-bottom: 0px;
+}
+.previous-project .card-title {
+    background:  linear-gradient(#E6913B, #EF4B3F);
+                      -webkit-text-fill-color: transparent;
+                      -webkit-background-clip: text;
+  }
+  .previous-project .btn {
+    border: none;
+    box-shadow: .4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff;
+  }
+  .previous-project .btn:hover {
+    border: none;
+    box-shadow: .4rem .4rem 1rem #ccc inset, -.4rem -.4rem 1rem #fff inset;
+      background:  linear-gradient(#E6913B, #EF4B3F);
+                      -webkit-text-fill-color: transparent;
+                      -webkit-background-clip: text;
+  }
+.home-loan {
+    width: 100%;
+    background-color: #dddddd;
+}
+.banking-partners {
+    background-color: #dddddd;
+}
+.banking-partners img{
+    width: 200px;
+}
+.banking-logo-box {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: #dddddd;
+    border-radius: 5px;
+    box-shadow: .4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff;
+}
+.points-image-box {
+    padding: 20px 0 20px 0;
+}
+.home-constraction-points {
+    background-color: #dddddd;
+    padding: 40px 0 0 0;
+}
+.tbrand {
+    height: 160px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catalogue-download {
+    background-color: #dddddd;
+    padding: 0px 40px 40px 40px;
+}
+.catalogue-download button{
+    font-size: 1rem;
+    width: 150px;
+    height: 40px;
+    border: 0px solid #dddddd;
+    border-radius: 5px;
+    background-color: #dddddd;
+    box-shadow: .4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff;
+}
+.catalogue-download button:hover {
+    box-shadow: .4rem .4rem 1rem #ccc inset, -.4rem -.4rem 1rem #fff inset;
+}
+.catalogue-download button a{
+    text-decoration: none;
+}
+.catalogue-download button a:hover{ 
+    text-decoration: none;
+    background:  linear-gradient(#E6913B, #EF4B3F);
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+}
